@@ -43,11 +43,18 @@ Setup environment: Proyek ini membutuhkan lingkungan sederhana untuk menjalankan
 
 
 ## Business Dashboard
+Hasil dari analisis dan model prediktif dapat divisualisasikan dalam bentuk dashboard untuk membantu institusi dalam memantau dan memahami status siswa secara real-time. Berikut adalah elemen-elemen yang dapat disertakan dalam dashboard:
+
+- Tren Status: Distribusi status siswa berdasarkan fitur seperti Curricular_units_2nd_sem_approved, Curricular_units_1st_sem_approved, Curricular_units_2nd_sem_enrolled, Curricular_units_1st_sem_enrolled, Admission_grade, Displaced.
+
+- Feature Importance: Visualisasi kontribusi semua fitur dengan berdasarkan status dari siswa.
 
 - Kemudahan dalam penggunaan Dashboard. [Link Dashboard](https://lookerstudio.google.com/u/0/reporting/084fce4e-59b1-416d-9266-cbdbfe8f20ee/page/4JatE)  
 
 ## Menjalankan Sistem Machine Learning
-link Prototipe :  https://subproyek2-penerapandatascience-rizkaindahp.streamlit.app/
+Pada proyek ini menggunakan model Random Forest yang sudah dilatih untuk memprediksi dropout siswa pada set data training dan test. Prediksi ini dilakukan berdasarkan fitur-fitur yang berkolerasi paling tinggi terhadap fitur status siswa.
+
+link Prototype :  https://subproyek2-penerapandatascience-rizkaindahp.streamlit.app/
 
 Untuk menjalankan sistem di lingkungan lokal, ikuti langkah-langkah berikut:
 
@@ -65,9 +72,41 @@ Untuk menjalankan sistem di lingkungan lokal, ikuti langkah-langkah berikut:
     ```
 
 ## Conclusion
+1. Dari data yang telah kita analisa, beberapa faktor penyebab tingginya dropout antara lain:
+    - Faktor akademik (jumlah mata kuliah yang disetujui, nilai semester, dan nilai masuk) sangat berpengaruh terhadap apakah mahasiswa akan graduate atau dropout.
+    - Faktor finansial (biaya kuliah yang terbayar dan status beasiswa) dapat menjadi indikator utama risiko dropout, terutama bagi mahasiswa yang kesulitan membayar biaya kuliah.
+    - Faktor sosial dan ekonomi (misalnya mahasiswa yang berasal dari luar kota atau daerah lain) bisa meningkatkan risiko dropout jika tidak ada dukungan yang cukup.
+2. Pembuatan sistem machine learning yang dapat membantu dalam memprediksi status siswa.
 
 
 ### Rekomendasi Action Items
+1. Intervensi Akademik
+- Menyediakan kelas tambahan bagi mahasiswa dengan nilai rendah pada semester pertama dan kedua.
+- Menyediakan tutor sebaya atau mentor dari dosen untuk mahasiswa dengan IPK rendah.
+- Meninjau ulang kurikulum dan metode pengajaran agar lebih sesuai dengan kebutuhan mahasiswa.
+- Menyediakan pelatihan untuk dosen dalam penggunaan metode pembelajaran inovatif.
+2. Dukungan Finansial
+
+- Beasiswa & Bantuan Keuangan
+- Sistem Cicilan atau Bantuan Pembayaran
+- Edukasi Keuangan untuk Mahasiswa
+
+3. Meningkatkan keterlibatan mahasiswa melalui komunitas dan mentoring.
+4. Implementasi sistem peringatan dini berbasis data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

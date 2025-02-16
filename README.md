@@ -35,12 +35,6 @@ Setup environment: Proyek ini membutuhkan lingkungan sederhana untuk menjalankan
     conda activate myenv #MacOS
     conda activate myenv  # Windows
     ```
-- Running predict
-    - Masukkan data pegawai yang diperiksa ke dalam kamus data
-    ```
-    python prediction.py
-    ```
-
 
 ## Business Dashboard
 Hasil dari analisis dan model prediktif dapat divisualisasikan dalam bentuk dashboard untuk membantu institusi dalam memantau dan memahami status siswa secara real-time. Berikut adalah elemen-elemen yang dapat disertakan dalam dashboard:

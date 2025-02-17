@@ -48,7 +48,7 @@ Hasil dari analisis dan model prediktif dapat divisualisasikan dalam bentuk dash
 ## Menjalankan Sistem Machine Learning
 Pada proyek ini menggunakan model Random Forest yang sudah dilatih untuk memprediksi dropout siswa pada set data training dan test. Prediksi ini dilakukan berdasarkan fitur-fitur yang berkolerasi paling tinggi terhadap fitur status siswa.
 
-link Prototype :  [Dashboard](https://subproyek2-penerapandatascience-rizkaindahp.streamlit.app/)
+link Prototype :  [Aplikasi Streamlit](https://subproyek2-penerapandatascience-rizkaindahp.streamlit.app/)
 
 Untuk menjalankan sistem di lingkungan lokal, ikuti langkah-langkah berikut:
 

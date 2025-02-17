@@ -43,7 +43,7 @@ Hasil dari analisis dan model prediktif dapat divisualisasikan dalam bentuk dash
 
 - Feature Importance: Visualisasi kontribusi semua fitur dengan berdasarkan status dari siswa.
 
-- Kemudahan dalam penggunaan Dashboard. [Link Dashboard](https://lookerstudio.google.com/u/0/reporting/084fce4e-59b1-416d-9266-cbdbfe8f20ee/page/4JatE)  
+- Kemudahan dalam penggunaan Dashboard. [Link Dashboard](https://lookerstudio.google.com/reporting/084fce4e-59b1-416d-9266-cbdbfe8f20ee)  
 
 ## Menjalankan Sistem Machine Learning
 Pada proyek ini menggunakan model Random Forest yang sudah dilatih untuk memprediksi dropout siswa pada set data training dan test. Prediksi ini dilakukan berdasarkan fitur-fitur yang berkolerasi paling tinggi terhadap fitur status siswa.
